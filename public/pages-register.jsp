@@ -58,7 +58,7 @@
                     <p class="text-center small">個人情報を入力してアカウントを作成してください。</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" action="pages-registered.html" novalidate>
+                  <form class="row g-3 needs-validation" action="pages-registered.jsp" novalidate>
                     <div class="col-12">
                       <label for="yourName" class="form-label">お名前</label>
                       <input type="text" name="name" class="form-control" id="yourName" required>

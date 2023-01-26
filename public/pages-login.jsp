@@ -58,7 +58,7 @@
                     <p class="text-center small">ログインIDとパスワードを入力してください。</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" action="index.html" novalidate>
+                  <form class="row g-3 needs-validation" action="index.jsp" novalidate>
 
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">ログインID</label>
@@ -81,7 +81,7 @@
                       <button class="btn btn-primary w-100" type="submit">ログイン</button>
                     </div>
                     <div class="col-12">
-                      <p class="small mb-0">アカウントを持っていない方へ <a href="pages-register.html">アカウントを作成</a></p>
+                      <p class="small mb-0">アカウントを持っていない方へ <a href="pages-register.jsp">アカウントを作成</a></p>
                     </div>
                   </form>
 
