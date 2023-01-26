@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <meta charset="utf-8">
@@ -66,47 +66,41 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Position</th>
-                    <th scope="col">Age</th>
-                    <th scope="col">Start Date</th>
+                    <th scope="col">名前</th>
+                    <th scope="col">プロフィール</th>
+                    <th scope="col">承認ステータス</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row"><img src="assets/img/news-1.jpg" alt="" style="width: 80px;"></th>
-                    <td>Brandon Jacob</td>
+                    <td><a href="users-profile.jsp">Brandon Jacob</a></td>
                     <td>Designer</td>
-                    <td>28</td>
-                    <td><button type="button" class="btn btn-primary rounded-pill">申請中</button></td>
+                    <td><button type="button" class="btn btn-primary rounded-pill">未承認</button>&nbsp;<button type="button" class="btn btn-danger rounded-pill">却下</button></td>
                   </tr>
                   <tr>
                     <th scope="row"><img src="assets/img/news-2.jpg" alt="" style="width: 80px;"></th>
-                    <td>Bridie Kessler</td>
+                    <td><a href="users-profile.jsp">Bridie Kessler</a></td>
                     <td>Developer</td>
-                    <td>35</td>
                     <td><button type="button" class="btn btn-secondary rounded-pill">承認済み</button></td>
                   </tr>
                   <tr>
                     <th scope="row"><img src="assets/img/news-3.jpg" alt="" style="width: 80px;"></th>
-                    <td>Ashleigh Langosh</td>
+                    <td><a href="users-profile.jsp">Ashleigh Langosh</a></td>
                     <td>Finance</td>
-                    <td>45</td>
-                    <td><button type="button" class="btn btn-secondary rounded-pill">承認済み</button></td>
+                    <td><button type="button" class="btn btn-primary rounded-pill">未承認</button>&nbsp;<button type="button" class="btn btn-danger rounded-pill">却下</button></td>
                   </tr>
                   <tr>
                     <th scope="row"><img src="assets/img/news-4.jpg" alt="" style="width: 80px;"></th>
-                    <td>Angus Grady</td>
+                    <td><a href="users-profile.jsp">Angus Grady</a></td>
                     <td>HR</td>
-                    <td>34</td>
-                    <td><button type="button" class="btn btn-primary rounded-pill">申請中</button></td>
+                    <td><button type="button" class="btn btn-secondary rounded-pill">承認済み</button></td>
                   </tr>
                   <tr>
                     <th scope="row"><img src="assets/img/news-5.jpg" alt="" style="width: 80px;"></th>
-                    <td>Raheem Lehner</td>
+                    <td><a href="users-profile.jsp">Raheem Lehner</a></td>
                     <td>Dynamic Division Officer</td>
-                    <td>47</td>
-                    <td><button type="button" class="btn btn-secondary rounded-pill">承認済み</button></td>
+                    <td><button type="button" class="btn btn-primary rounded-pill">未承認</button>&nbsp;<button type="button" class="btn btn-danger rounded-pill">却下</button></td>
                   </tr>
                 </tbody>
               </table>
