@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SNSサイト / プロフィール</title>
+  <title>SNSサイト - プロフィール</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -150,6 +150,11 @@
 
               <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
               <h2>佐藤太郎</h2>
+              <div class="social-links mt-2">
+                <form action="users-profile.jsp" method="post">
+                  <button type="button" class="btn btn-primary rounded-pill">友達申請</button>
+                </form>
+              </div>
             </div>
           </div>
 
