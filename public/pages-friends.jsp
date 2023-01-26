@@ -82,7 +82,7 @@
                     <th scope="row"><img src="assets/img/news-2.jpg" alt="" style="width: 80px;"></th>
                     <td><a href="users-profile.jsp">Bridie Kessler</a></td>
                     <td>Developer</td>
-                    <td><button type="button" class="btn btn-secondary rounded-pill">承認済み</button></td>
+                    <td><button type="button" class="btn btn-secondary rounded-pill" disabled="disabled">承認済み</button></td>
                   </tr>
                   <tr>
                     <th scope="row"><img src="assets/img/news-3.jpg" alt="" style="width: 80px;"></th>
@@ -94,7 +94,7 @@
                     <th scope="row"><img src="assets/img/news-4.jpg" alt="" style="width: 80px;"></th>
                     <td><a href="users-profile.jsp">Angus Grady</a></td>
                     <td>HR</td>
-                    <td><button type="button" class="btn btn-secondary rounded-pill">承認済み</button></td>
+                    <td><button type="button" class="btn btn-secondary rounded-pill" disabled="disabled">承認済み</button></td>
                   </tr>
                   <tr>
                     <th scope="row"><img src="assets/img/news-5.jpg" alt="" style="width: 80px;"></th>
