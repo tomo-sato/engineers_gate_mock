@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SNSサイト - アカウント作成</title>
+  <title>SNSサイト - ログイン</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,22 +54,11 @@
                 <div class="card-body">
 
                   <div class="pt-4 pb-2">
-                    <h5 class="card-title text-center pb-0 fs-4">アカウントを作成します。</h5>
-                    <p class="text-center small">個人情報を入力してアカウントを作成してください。</p>
+                    <h5 class="card-title text-center pb-0 fs-4">SNSへようこそ。<br>ログインしてください。</h5>
+                    <p class="text-center small">ログインIDとパスワードを入力してください。</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" action="pages-registered.html" novalidate>
-                    <div class="col-12">
-                      <label for="yourName" class="form-label">お名前</label>
-                      <input type="text" name="name" class="form-control" id="yourName" required>
-                      <div class="invalid-feedback">お名前を入力してください。</div>
-                    </div>
-
-                    <div class="col-12">
-                      <label for="yourEmail" class="form-label">メールアドレス</label>
-                      <input type="email" name="email" class="form-control" id="yourEmail" required>
-                      <div class="invalid-feedback">有効なメールアドレスを入力してください。</div>
-                    </div>
+                  <form class="row g-3 needs-validation" action="index.html" novalidate>
 
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">ログインID</label>
@@ -84,21 +75,13 @@
                       <div class="invalid-feedback">パスワードを入力してください。</div>
                     </div>
 
+                    <p />
+
                     <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
-                        <label class="form-check-label" for="acceptTerms">
-                            規約に同意しアカウントを作成します。
-                            <p><a href="#">利用規約</a></p>
-                        </label>
-                        <div class="invalid-feedback">利用規約に同意する必要があります。</div>
-                      </div>
+                      <button class="btn btn-primary w-100" type="submit">ログイン</button>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">アカウント作成</button>
-                    </div>
-                    <div class="col-12">
-                      <p class="small mb-0">すでにアカウントを持っています。 <a href="pages-login.html">ログインページへ</a></p>
+                      <p class="small mb-0">アカウントを持っていない方へ <a href="pages-register.html">アカウントを作成</a></p>
                     </div>
                   </form>
 
